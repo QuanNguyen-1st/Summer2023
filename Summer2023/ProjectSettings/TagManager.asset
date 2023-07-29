@@ -3,21 +3,26 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Line
+  - Point
+  - Enemy
+  - Projectile
+  - Line Block
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Terrain
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Obstacle
+  - Enemy
+  - Point
+  - Projectile
+  - PlayerBottonCollider
+  - Line Block
   - 
   - 
   - 
@@ -40,4 +45,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1331726433
+    locked: 0
+  - name: Entities
+    uniqueID: 751422323
+    locked: 0
+  - name: Line
+    uniqueID: 3606924203
+    locked: 0
+  - name: Circle
+    uniqueID: 1200721945
     locked: 0
